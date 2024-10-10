@@ -55,6 +55,13 @@ const Portfolio = () => {
             CV/resume, and contact details. It's an excellent<br/>
             place to explore and learn more about my journey.
           </p>
+
+
+
+          <div className="badge-section">
+            <img src="https://tryhackme-badges.s3.amazonaws.com/0xWAYNE.png" alt="Your Image Badge" />
+          </div>
+
         </div>
       </main>
       <style jsx>{`
