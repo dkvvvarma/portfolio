@@ -10,7 +10,7 @@ const Portfolio = () => {
           <a href="#about" className="active">ABOUT ME</a>
           <a href="#resume">RESUME</a>
           <a href="#projects">PROJECTS</a>
-          <a href="/certifications">CERTIFICATIONS</a>
+          <a href="/certifications">CERTIFICATION</a>
         </nav>
       </header>
       <main>
