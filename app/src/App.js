@@ -1,11 +1,16 @@
-import logo from './logo.svg';
+import React from 'react';
+import { Routes, Route } from "react-router-dom"; 
 import './App.css';
-import Portfolio from "./components/About";
-import './index.css';
+import Portfolio from "./pages/About"; 
+import Certifications from './pages/Certification'; 
+
 function App() {
   return (
     <div className="App">
-      <Portfolio />
+      <Routes>
+        <Route path="/" element={<Portfolio />} />
+        <Route path="/certifications" element={<Certifications />} />
+      </Routes>
     </div>
   );
 }

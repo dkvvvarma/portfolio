@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa'; // Import the social icons
+import { FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa'; 
 
 const Portfolio = () => {
   return (
@@ -16,7 +16,7 @@ const Portfolio = () => {
       <main>
         <div className="profile-card">
           <img 
-            src="/Hero.jpeg" // Ensure the correct image path
+            src="/Hero.jpeg" 
             alt="DKVV Varma" 
             className="profile-image"
           />
