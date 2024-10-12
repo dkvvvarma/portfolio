@@ -10,7 +10,7 @@ const Portfolio = () => {
           <a href="#about" className="active">ABOUT ME</a>
           <a href="#resume">RESUME</a>
           <a href="#projects">PROJECTS</a>
-          <a href="#certifications">CERTIFICATIONS</a>
+          <a href="/certifications">CERTIFICATIONS</a>
         </nav>
       </header>
       <main>
@@ -46,8 +46,10 @@ const Portfolio = () => {
             <a href="https://blog.dkvv.live" target="_blank" rel="noopener noreferrer">
   <button>VISIT BLOG</button>
 </a>
-            <button>CERTIFICATIONS</button>
-          </div>
+          <a href='/certifications'>    <button>CERTIFICATIONS</button> 
+          </a>
+          </div> 
+
           <p className="bio">
             I'm an undergraduate student at Gitam University,<br/>
             Visakhapatnam. This site is a platform for me to<br/>
