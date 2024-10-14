@@ -213,7 +213,7 @@ function ResumeComponent() {
 
   return (
     <div style={styles.page}>
-      <header style={styles.header}>
+      {/* <header style={styles.header}>
         <h1 style={styles.title}>DKVV.VARMA's Portfolio</h1>
         <nav style={styles.nav}>
           <a href="#" style={styles.navLink}>ABOUT ME</a>
@@ -225,14 +225,14 @@ function ResumeComponent() {
           <Menu onClick={() => setMobileMenuOpen(!mobileMenuOpen)} />
           {mobileMenuOpen && (
             <div style={styles.mobileMenuOpen}>
-              <a href="#" style={styles.navLink}>ABOUT ME</a>
-              <a href="#" style={{...styles.navLink, ...styles.activeNavLink}}>RESUME</a>
-              <a href="#" style={styles.navLink}>PROJECTS</a>
-              <a href="#" style={styles.navLink}>CERTIFICATIONS</a>
+              <a href="/" style={styles.navLink}>ABOUT ME</a>
+              <a href="/resume" style={{...styles.navLink, ...styles.activeNavLink}}>RESUME</a>
+              <a href="/" style={styles.navLink}>PROJECTS</a>
+              <a href="/cetifications" style={styles.navLink}>CERTIFICATIONS</a>
             </div>
           )}
         </div>
-      </header>
+      </header> */}
       <main style={styles.main}>
         <h2 style={styles.pageTitle}>
           Resume & Experience
