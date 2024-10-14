@@ -1,10 +1,11 @@
 import React from 'react';
+
 import { FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa'; 
 
 const Portfolio = () => {
   return (
     <div className="portfolio">
-      <header>
+      {/* <header>
         <h1>DKVV.VARMA's Portfolio</h1>
         <nav>
           <a href="#about" className="active">ABOUT ME</a>
@@ -12,7 +13,7 @@ const Portfolio = () => {
           <a href="#projects">PROJECTS</a>
           <a href="/certifications">CERTIFICATION</a>
         </nav>
-      </header>
+      </header> */}
       <main>
         <div className="profile-card">
           <img 
@@ -68,9 +69,16 @@ const Portfolio = () => {
           <div className="badge-section">
             <img src="https://tryhackme-badges.s3.amazonaws.com/0xWAYNE.png" alt="Your Image Badge" />
           </div>
+          </div>
+          </main>
 
-        </div>
-      </main>
+    
+    
+      {/* 
+        css by chatGPT */}
+
+    
+
       <style jsx>{`
         .portfolio {
           background-color: #1a202c;
