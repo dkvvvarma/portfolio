@@ -8,7 +8,7 @@ const Portfolio = () => {
       {/* <header>
         <h1>DKVV.VARMA's Portfolio</h1>
         <nav>
-          <a href="#about" className="active">ABOUT ME</a>
+          <a href="/" className="active">ABOUT ME</a>
           <a href="/resume">RESUME</a>
           <a href="#projects">PROJECTS</a>
           <a href="/certifications">CERTIFICATION</a>
