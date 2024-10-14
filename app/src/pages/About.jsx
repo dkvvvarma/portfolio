@@ -8,7 +8,7 @@ const Portfolio = () => {
         <h1>DKVV.VARMA's Portfolio</h1>
         <nav>
           <a href="#about" className="active">ABOUT ME</a>
-          <a href="#resume">RESUME</a>
+          <a href="/resume">RESUME</a>
           <a href="#projects">PROJECTS</a>
           <a href="/certifications">CERTIFICATION</a>
         </nav>
@@ -41,7 +41,12 @@ const Portfolio = () => {
           </h1>
 
           <div className="buttons">
-            <button>RESUME</button>
+
+          <a href="/resume" target="_blank" rel="noopener Rnoreferrer">
+          <button>RESUME</button>
+          </a>
+
+  
             <button>PROJECTS</button>
             <a href="https://blog.dkvv.live" target="_blank" rel="noopener noreferrer">
   <button>VISIT BLOG</button>
