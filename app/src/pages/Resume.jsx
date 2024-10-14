@@ -213,7 +213,7 @@ function ResumeComponent() {
 
   return (
     <div style={styles.page}>
-      {/* <header style={styles.header}>
+      {/* <header style={styles.header}>  
         <h1 style={styles.title}>DKVV.VARMA's Portfolio</h1>
         <nav style={styles.nav}>
           <a href="#" style={styles.navLink}>ABOUT ME</a>

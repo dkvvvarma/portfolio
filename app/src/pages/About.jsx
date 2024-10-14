@@ -164,7 +164,7 @@ const Portfolio = () => {
           color: #dd6b20; // Change color on hover
         }
         .content {
-          max-width: 40rem;
+          max-width: 100rem;
         }
         .content h2 {
           font-size: 2.25rem;
