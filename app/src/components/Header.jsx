@@ -16,7 +16,7 @@ const Header = () => {
       <nav className={`nav ${menuOpen ? "active" : ""}`}>
         <a href="/" className="navLink">ABOUT ME</a>
         <a href="/resume" className="navLink">RESUME</a>
-        <a href="/" className="navLink">PROJECTS</a>
+        <a href="/https://blog.dkvv.live" className="navLink">BLOG</a>
         <a href="/certifications" className="navLink activeNavLink">CERTIFICATIONS</a>
       </nav>
       

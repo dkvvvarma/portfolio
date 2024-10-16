@@ -8,7 +8,7 @@ const Portfolio = () => {
       {/* <header>
         <h1>DKVV.VARMA's Portfolio</h1>
         <nav>
-          <a href="#about" className="active">ABOUT ME</a>
+          <a href="/" className="active">ABOUT ME</a>
           <a href="/resume">RESUME</a>
           <a href="#projects">PROJECTS</a>
           <a href="/certifications">CERTIFICATION</a>
@@ -41,21 +41,8 @@ const Portfolio = () => {
             I'm <span className="highlight">D.K.V.V VARMA</span><br/>
           </h1>
 
-          <div className="buttons">
 
-          <a href="/resume" target="_blank" rel="noopener Rnoreferrer">
-          <button>RESUME</button>
-          </a>
-
-  
-            <button>PROJECTS</button>
-            <a href="https://blog.dkvv.live" target="_blank" rel="noopener noreferrer">
-  <button>VISIT BLOG</button>
-</a>
-          <a href='/certifications'>    <button>CERTIFICATIONS</button> 
-          </a>
-          </div> 
-
+        
           <p className="bio">
             I'm an undergraduate student at Gitam University,<br/>
             Visakhapatnam. This site is a platform for me to<br/>
