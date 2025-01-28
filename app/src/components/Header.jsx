@@ -14,13 +14,12 @@ const Header = () => {
       
       {/* Navigation Links */}
       <nav className={`nav ${menuOpen ? "active" : ""}`}>
-        <a href="/" className="navLink">ABOUT ME</a>
-        <a href="/resume" className="navLink">RESUME</a>
-        <a href="/https://blog.dkvv.live" className="navLink">BLOG</a>
-        <a href="/" className="navLink">PROJECTS</a>
-        <a href="/certifications" className="navLink activeNavLink">CERTIFICATIONS</a>
-      </nav>
-      
+  <a href="/" className="navLink">ABOUT ME</a>
+  <a href="/resume" className="navLink">RESUME</a>  
+  <a href="https://blog.dkvv.live" target="_blank" rel="noopener noreferrer" className="navLink">VISIT BLOG</a> {/* Changed button to a link */}
+  <a href="/certifications" className="navLink activeNavLink">CERTIFICATIONS</a>
+</nav>
+
       {/* Hamburger Icon */}
       <div className="hamburger" onClick={toggleMenu}>
         {menuOpen ? <FaTimes /> : <FaBars />}
